@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "426722305101",
+    "firebase_url": "https://gotongsampah-id.firebaseio.com",
+    "project_id": "gotongsampah-id",
+    "storage_bucket": "gotongsampah-id.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:426722305101:android:5e3c0716ef0da753",
+        "android_client_info": {
+          "package_name": "com.example.ryzen.gotongsampah"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "426722305101-8m3ap1m8rq0i4027kgs14eo0aoebn11b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ryzen.gotongsampah",
+            "certificate_hash": "694d44ab3b005d33c616371244a2161505e8549b"
+          }
+        },
+        {
+          "client_id": "426722305101-gge58dqe954e3va6ltnpojhg9113ptji.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqoyZUeSvNiLDLVoXnl5XlBR0haJPBnIM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "426722305101-gge58dqe954e3va6ltnpojhg9113ptji.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

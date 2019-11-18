@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:background="@color/hijautua">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="2"
+        android:orientation="vertical"
+        android:background="@color/hijautua">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="210dp"
+            android:background="@color/hijautua">
+
+            <TextView
+                android:id="@+id/groupname"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.07"
+                android:background="@color/hijautua"
+                android:paddingLeft="20dp"
+                android:text="                     Buat            Akun Baru"
+                android:textColor="@android:color/white"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:background="@color/hijautua"
+                android:src="@drawable/login_pict"
+                android:layout_weight="0.1"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="@dimen/marginlogin"
+            android:layout_marginRight="@dimen/marginlogin"
+            android:gravity="center">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/marginlogin"
+                android:layout_marginRight="@dimen/marginlogin"
+                android:layout_marginTop="@dimen/marginlogin"
+                android:layout_gravity="center"
+                app:cardCornerRadius="15dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:id="@+id/imageView"
+                            android:layout_width="match_parent"
+                            android:paddingLeft="@dimen/paddingleftright"
+                            android:paddingRight="@dimen/paddingleftright"
+                            android:layout_height="80dp"
+                            app:srcCompat="@drawable/logoa" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="@dimen/paddingleftright"
+                        android:paddingRight="@dimen/paddingleftright"
+                        android:orientation="vertical">
+                        <EditText
+                            android:id="@+id/txtName"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:drawableLeft="@drawable/ic_action_username"
+                            android:ems="10"
+                            android:hint="   Nama"
+                            android:inputType="textPersonName"
+                            android:selectAllOnFocus="false"
+                            android:singleLine="false"
+                            android:textColor="@android:color/black"
+                            />
+                        <EditText
+                            android:id="@+id/txtEMail"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:drawableLeft="@drawable/ic_action_username"
+                            android:ems="10"
+                            android:hint="   E-Mail Aktif"
+                            android:inputType="textPersonName"
+                            android:selectAllOnFocus="false"
+                            android:singleLine="false"
+                            android:textColor="@android:color/black"
+                            />
+                        <EditText
+                            android:id="@+id/txtPhone"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:drawableLeft="@drawable/ic_action_password"
+                            android:ems="10"
+                            android:hint="   Handphone"
+                            android:inputType="phone"
+                            android:textColor="@android:color/black" />
+                        <EditText
+                            android:id="@+id/txtPassword"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:drawableLeft="@drawable/ic_action_password"
+                            android:ems="10"
+                            android:hint="   Password"
+                            android:inputType="textPassword"
+                            android:textColor="@android:color/black" />
+                        <Button
+                            android:id="@+id/btn_regis"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_centerHorizontal="true"
+                            android:background="@drawable/rounded_button_sign_in"
+                            android:text="REGISTRASI"
+                            android:textColor="@android:color/white"
+                            android:textSize="20dp"
+                            android:layout_marginBottom="@dimen/paddingleftright"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

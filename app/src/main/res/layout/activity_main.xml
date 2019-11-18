@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@android:color/white">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="2"
+        android:orientation="vertical">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="210dp"
+            android:background="#FFFFFF">
+
+            <TextView android:id="@+id/groupname"
+                android:paddingLeft="10dp"
+                android:textSize="16dp"
+                android:textColor="#000000"
+                android:textStyle="normal"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_weight="0.07"
+                android:background="@android:color/white"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:background="#ffffff"
+                android:src="@drawable/login_pict"
+                android:layout_weight="0.1"/>
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="@dimen/marginlogin"
+        android:layout_marginRight="@dimen/marginlogin"
+        android:layout_marginBottom="@dimen/marginlogin"
+        android:layout_marginTop="@dimen/marginlogin"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/logoa" />
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:gravity="center"
+            android:text="Jadikan dirimu menjadi generasi peduli lingkungan dengan donasi sampah mu dan bergabung bersama kami!"
+            android:textColor="@color/hijaumuda"
+            android:textSize="13dp" />
+
+        <Button
+            android:id="@+id/btn_signup"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_button"
+            android:text="Sign up"
+            android:textColor="@android:color/white"
+            android:textSize="20dp"
+            android:layout_marginTop="40dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="ATAU"
+            android:textSize="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"/>
+        <Button
+            android:id="@+id/btnlogin"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/rounded_button_sign_in"
+            android:text="LOGIN"
+            android:textColor="@android:color/white"
+            android:textSize="20dp" />
+
+
+
+    </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

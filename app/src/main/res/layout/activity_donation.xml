@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".DonationActivity">
+
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="16dp"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:id="@+id/txtHeaderDonation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="DONASIKAN SAMPAHMU"
+        android:textColor="@android:color/white"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/txtHeaderDonation"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:padding="15dp">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:id="@+id/cardview_donasi"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="15dp">
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="20dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:paddingBottom="50dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Saya Ingin Mendonasikan"
+                            android:textStyle="bold"
+                            android:textSize="15dp"
+                            android:textColor="@color/hijautua"/>
+
+
+                        <EditText
+                            android:id="@+id/jenis"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@android:color/black"
+                            android:textSize="15dp"
+                            android:hint="Sampah Jenis Apa ?" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Sebanyak"
+                            android:textStyle="bold"
+                            android:textSize="15dp"
+                            android:textColor="@color/hijautua"/>
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                        <EditText
+                            android:id="@+id/banyak"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@android:color/black"
+                            android:textSize="15dp"
+                            android:inputType="number"
+                            android:hint="Berat Sampah Donasi"
+                            android:layout_alignParentLeft="true"
+                            android:layout_toLeftOf="@+id/berat"/>
+                            <Spinner
+                                android:id="@+id/berat"
+                                android:layout_alignParentEnd="true"
+                                android:textSize="15dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height= "wrap_content"
+                                android:layout_alignParentRight="true" />
+                        </RelativeLayout>
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Informasi Tambahan"
+                            android:textStyle="bold"
+                            android:textSize="15dp"
+                            android:textColor="@color/hijautua"/>
+
+                        <EditText
+                            android:id="@+id/informasi"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:textSize="15dp"
+                            android:hint="Kondisi atau Informasi Tambahan"
+                            android:inputType="textMultiLine" />
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Nomor Handphone"
+                            android:textStyle="bold"
+                            android:textSize="15dp"
+                            android:textColor="@color/hijautua"/>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <EditText
+                                android:id="@+id/kode_tel"
+                                android:layout_width="wrap_content"
+                                android:layout_margin="0dp"
+                                android:layout_height="wrap_content"
+                                android:text="+62" />
+                            <EditText
+                                android:id="@+id/kontakdonasi"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:ems="10"
+                                android:textSize="15dp"
+                                android:hint="Kontak yang Bisa Dihubungi"
+                                android:inputType="phone" />
+
+                        </LinearLayout>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Dapat di Ambil di"
+                            android:textStyle="bold"
+                            android:textSize="15dp"
+                            android:textColor="@color/hijautua"/>
+                        <EditText
+                            android:id="@+id/alamat"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@android:color/black"
+                            android:textSize="15dp"
+                            android:hint="Jalan..." />
+
+                        <ImageView
+                            android:id="@+id/fotodonasi"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            />
+
+                        <Button
+                            android:id="@+id/button_choose_image"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Pilih Foto"
+                            android:background="@color/hijautua"
+                            android:textStyle="bold"
+                            android:textColor="@android:color/white"/>
+
+                        <ImageView
+                            android:id="@+id/image_view"
+                            android:layout_gravity="center"
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_marginTop="16dp" />
+                    </LinearLayout>
+                </ScrollView>
+
+            </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearbuttondonasi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        >
+        <Button
+            android:id="@+id/button_upload"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Donasikan"
+            android:padding="5dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:background="@color/hijautua"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

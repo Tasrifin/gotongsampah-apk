@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="hijautua">#027555</color>
+    <color name="hijaumuda">#78f774</color>
+    <color name="hijautuaflat">#00BA8A</color>
+</resources>

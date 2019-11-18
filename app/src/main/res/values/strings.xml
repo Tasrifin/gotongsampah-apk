@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">GoTongSampah</string>
+    <string name="menubottom1">HOME</string>
+    <string name="menubottom2">HOW IT WORKS</string>
+    <string name="menubottom3">PROFILE</string>
+    <string name="market_banner">Terima Kasih Kepada Kalian #EnvirontmentHeroes, dan Mulailah Langkahmu Sayangi Lingkunganmu</string>
+    <string name="market_banner2">Selamat Berbelanja!</string>
+    <string name="howittittle1">1. Donatur</string>
+    <string name="howittittle1_content">Donatur adalah pihak yang memiliki sampah yang bisa didaur ulang.  Ketika calon donatur/user memiliki smapah yang dikategorikan disa didaur ulang, maka user tersebut dapat membagikan melalui fitur donasi yang ada di aplikasi ini. Selanjutnya akan dilanjutkan kepada pengelola apakah sampah tersebut masuk kedalam katergori atau tidak. Apabila sampah masuk kedalam kategori maka akan di proses dan dijemput oleh pihak pengelola.</string>
+    <string name="howittittle2">2. Receiver</string>
+    <string name="howittittle2_content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+    <string name="howittittle3">2. Buyer</string>
+    <string name="howittittle3_content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+    <string name="ayobelanja">Dengan Membeli Produk Disini, Kamu Secara Tidak Langsung Turut Ikut Serta Menyelamatkan Lingkungan Loh!</string>
+</resources>
